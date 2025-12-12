@@ -1,0 +1,378 @@
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: system-ui, sans-serif;
+}
+
+/* style rule for the homepage */
+.home-sections {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.info-box {
+    width: 50%;
+}
+
+.info-box img {
+    border-radius: 15px 15px 0 0;
+}
+
+.home-sections {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.info-box {
+    background-color: #fff8e6;
+    border: 8px solid #b2d600;
+    border-radius: 20px;
+    padding: 20px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.info-box img {
+    width: 100%;
+    border: round;
+    margin-bottom: 15px;
+}
+
+.info-box h2 {
+    font-family: "Boldonse", sans-serif;
+    color: #2844cc;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* style rule for the body text */
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* style rules for the headings and titles  */
+.logo , h1 , h2 , h3 ,h4 {
+    font-family: "Boldonse", sans-serif;
+    color: #2844cc;
+}
+
+/* Style rule for the navigation */
+.top-nav {
+    background-color: #2844cc;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 3px solid #2844cc;
+}
+
+.top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Site Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 3px solid #2844cc;
+    background-color: #2844cc;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* navigation */
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav a:hover,
+.nav .active {
+    text-decoration: underline;
+}
+
+/* style rules for the homepage Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1 1 45%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #b2d600;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hero-text .btn:hover {
+    background-color: #b8973b;
+}
+
+.hero img {
+    flex: 1 1 45%;
+    max-width: 100%;
+    border-radius: 20px;
+    border: solid 8px #b2d600;
+}
+
+/* style rules for the sections */
+section {
+    padding: 40px 60px;
+}
+
+/* style rules  for the sections of information */
+.mission, .about, .template-content {
+    background-color: #fff8e6;
+    border-radius: 15px;
+    border: 2px solid #c8d69b;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+
+/* style rules for the get involved page */
+.involved-hero {
+    text-align: center;
+    padding: 50px 40px;
+    background-color: #fff8e6;
+    border-bottom: 3px solid #fff8e6;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.involved-hero h1 {
+    font-size: 40px;
+    color: #2844cc;
+}
+
+.involved-hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    color: #444;
+}
+
+/* style rules for the info table */
+.info-table {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    border: 2px solid #2844cc;
+    border-radius: 20px;
+    padding: 30px 40px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.info-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2844cc;
+}
+
+.info-table table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-size: 16px;
+}
+
+.info-table th {
+    background-color: #b2d600;
+    color: #ffffff;
+    padding: 15px;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+    border-bottom: 2px solid #a8b087;
+}
+
+.info-table td {
+    padding: 15px;
+    background-color: #fff8e6;
+    border-bottom: 1px solid #2844cc;
+}
+
+.info-table tr:last-child td {
+    border-bottom: none;
+}
+
+.info-table tr:hover td {
+    background-color: #f8f9ac;
+    color: #000000;
+}
+
+/* style rules for the want to get involved form */
+.form-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #ffffff;
+    border: 2px solid #2844cc;
+    border-radius: 20px;
+}
+
+.form-section h2 {
+    text-align: center;
+    color: #2844cc;
+    margin-bottom: 25px;
+}
+
+.involved-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.involved-form label {
+    font-weight: 600;
+    color: #2844cc;
+}
+
+.involved-form input,
+.involved-form select,
+.involved-form textarea {
+    padding: 12px 15px;
+    border: 2px solid #c8d69b;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff8e6;
+    font-family: inherit;
+}
+
+.involved-form input:focus,
+.involved-form select:focus,
+.involved-form textarea:focus {
+    outline: none;
+    border-color: #c8d69b;
+    background-color: white;
+}
+
+.involved-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* style rules for the submit button */
+.involved-form button {
+    margin-top: 10px;
+    background-color: #b2d600;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.involved-form button:hover {
+    background-color: #2844cc;
+}
+
+
+/* style rules for footer */
+.site-footer {
+    background-color: #fff8e6;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #a8b087;
+    margin-top: 40px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+
+.footer-socials .btn {
+    margin-bottom: 10px;
+}
+
+.footer-socials a {
+    margin: 0 10px;
+    color: #5f6844;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-socials a:hover {
+    text-decoration: underline;
+}
